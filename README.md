@@ -1,1 +1,3 @@
-"Сложно, Сложно, ничего не понятно," - Карина стримерша.
+"Underidoderidoderiododeridoo" - Winston Churchill
+~
+
