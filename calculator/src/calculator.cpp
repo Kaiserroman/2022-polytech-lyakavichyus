@@ -27,6 +27,7 @@ int main() {
             cout << "Answer:" << pow(a,b) << endl;
             break;
         default:
+            return 0;
             break;
         }
     } 
