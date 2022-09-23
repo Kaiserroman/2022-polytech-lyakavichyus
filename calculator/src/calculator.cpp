@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    double a=0, b=0;
+    double a = 0, b = 0;
     char s;
     while (true)
     {
@@ -21,8 +21,14 @@ int main() {
             cout << "Answer:" << a * b << endl;
             break;
         case '/':
-            cout << "Answer:" << a / b << endl;
-            break;
+            if (b == 0) {
+                cout << "error" << endl;
+                break;
+            }
+            else {
+                cout << "Answer:" << pow(a, b) << endl;
+                break;
+            }
         case '^':
             cout << "Answer:" << pow(a,b) << endl;
             break;
@@ -30,6 +36,6 @@ int main() {
             return 0;
             break;
         }
-    } 
+    }
 }
 
