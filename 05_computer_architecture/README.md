@@ -1,6 +1,12 @@
 Какой процесс имеет наименьший идентификатор?
-System Idle Process
+
+Используем tasklist в  PowerShell
+Наименьший PID=0 у System Idle Process
+
 Какой идетификтор у вашего текущего shell-процесса?
-14308
+Используем Get-Process powershell в  PowerShell
+19956
+
 Сколько всего запущено процессов?
-177
+Используем (Get-Process).Count в  PowerShell
+249
