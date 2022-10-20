@@ -2,7 +2,6 @@
 //
 
 #include <cassert>
-#include <string>
 using namespace std;
 
 unsigned int length(const char* str)
@@ -10,8 +9,11 @@ unsigned int length(const char* str)
     if (str == nullptr) {
         return 0;
     }
-    else 
-        return strlen(str);
+    else {
+        int size=0;
+        while (*str++) size++;
+        return size;
+    }
 }
 
 int main()
