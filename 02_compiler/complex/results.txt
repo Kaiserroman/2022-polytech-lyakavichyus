@@ -1,0 +1,9 @@
+-O0	766ms	000fe7a0
+-O1	295ms	000fe720
+-O2	263ms	000fe7a0
+-O3	249ms	000fe7a0
+-Os	347ms	000febd0
+-Ofast	281ms	000fe828
+-Og	396ms	000fe710
+-Oz	343ms	000fe6d0
+
