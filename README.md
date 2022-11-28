@@ -6,15 +6,13 @@ MIT license - A short and simple permissive license with conditions only requiri
 
 Select sort (aka bubble or merge):
   Average:
-$$
-O(n^2)
-$$
+  
+  O(n²)
 
 Quick sort:
   Average:
-$$
+  
 O(n(log(n)))
-$$
 
 source: https://www.bigocheatsheet.com/
 **************************************************
